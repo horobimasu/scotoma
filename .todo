@@ -1,0 +1,35 @@
+encryptor:
+- scan for new drives as the appear
+- password to start encryption, config stuff to be encrypted with this password
+- self delete
+- output crypt key when exit in debug mode after encryption
+- password to detonate
+- online mode
+- stop services
+- continuous killing of tasks, set debugger in exec options
+- add dirs that cannot be written to without admin to ignore list if not admin
+- how many % of the file to encrypt
+
+decryptor:
+
+shared:
+- detect type of drive and adjust settings
+- filter params for enumerate_files
+
+panel:
+- online mode ; key exchange
+- build mode dropdown
+- rename mode dropdown
+- option to pad file data
+- custom note drop location
+- custom note file name
+- preview note button
+- checks to make sure all required variables are in the note
+- front page to show version on everything and updates
+- build history
+- dynamically detect empty textboxes
+- option for upx and static compiling
+- auto escape paths
+
+misc:
+- auto set --remap-path-prefix to whatever the dir is
