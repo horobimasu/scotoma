@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 0;
+    gap: 40px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.sidebar {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+
+.label {
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+button {
+    min-width: 100px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 400px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    width: 5px;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}
+
+.build {
+    margin-top: 20px;
+}

