@@ -1,0 +1,6 @@
+[build]
+rustflags = [
+    "-C", "debuginfo=0",
+    "-C", "link-arg=/DEBUG:NONE",
+    "--remap-path-prefix", "C:/Users/User="
+]
